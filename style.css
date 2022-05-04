@@ -2,6 +2,81 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
+/* gallary nav */
+#slide-nav{
+    width: 100%;
+}
+
+.container-i{
+    margin: 0px auto !important;
+    text-align: center;
+}
+
+#first {
+    color: #0a8ed8;
+}
+
+#first::after{
+    content: '';
+    color: #0a8ed8;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    transition:300ms ease-out;
+    position: absolute;
+    width: 100%;
+}
+
+.main-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 80px !important;
+    margin-bottom: 30px !important;
+}
+
+.list_item{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+#slide-nav .slidep{
+    font-size: 15px;
+    font-weight: 400;
+    color: #93959c;
+    line-height: 23px;
+}
+
+.link-list{
+    color: #212529;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    opacity: .8;
+}
+
+.link-list:hover{
+    color:  #0a8ed8;
+}
+
+.link-list::after{
+    content: '';
+    background-color: #0a8ed8;
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    transition:300ms ease-out;
+    position: absolute;
+    width: 0%;
+}
+.link-list:hover::after{
+    left: 0;
+    width: 100%;
+}
+
 :root{
     --darkMode:#373844;
 }
