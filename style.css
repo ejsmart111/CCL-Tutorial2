@@ -44,12 +44,12 @@ img.mx-auto {
     border-radius: 50%;
 
 }
-.fa-moon-o{
+.fa-moon-hide{
     display: none !important;
 }
-.fa-moon-show{
-    display: block ;
-}
 .fa-sun-o{
-    display: none;
+    display: none !important ;
+}
+.fa-sun-show{
+    display: block !important;
 }
