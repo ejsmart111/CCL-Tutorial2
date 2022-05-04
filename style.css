@@ -5,6 +5,10 @@
 
 
 /* SPONSORS */
+.container {
+    width: 1300px;
+}
+
 .sm-section {
     padding: 40px 0px;
 }
