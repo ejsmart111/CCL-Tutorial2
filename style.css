@@ -54,6 +54,41 @@ img.mx-auto {
     display: block !important;
 }
 
+.line{
+  margin-top: 10px !important;
+}
+
+.nav-item{
+    font-weight:500 !important;
+    font-size: 16px !important;
+}
+
+.number {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 7.5px;
+    background:rgb(243, 99, 15);
+    border: none;
+    color: #000;
+    font: 15px Arial, sans-serif;
+    color: white;
+    margin-left: -12px;
+    margin-top: 5px;
+}
+
+.number-1{
+    position: relative;
+    top:2px;
+    color: white;
+    left: -12px;
+    font-size: 13px;
+}
+.log{
+    font-weight:600!important;
+    font-size: 18px !important;
+}
+
 
 /*Gallery Section Styles*/
 #gallery{
