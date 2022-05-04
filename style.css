@@ -1,4 +1,18 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
+
+footer input {
+  padding: 12px 15px;
+  margin-right: 8px;
+  background-color: #f7f8f9;
+  color: #f7f8f9;
+  border: 1px solid #f7f8f9 !important;
+  border-radius: 4px;
+}
+
+.footer-form > button {
+  padding: 10px 18px;
+}
+
