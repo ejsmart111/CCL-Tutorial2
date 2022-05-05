@@ -2,3 +2,13 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
+span {
+    color: blue;
+    padding-left: 15px;
+}
+
+
+/* .btn{
+    text-align: center;
+} */
