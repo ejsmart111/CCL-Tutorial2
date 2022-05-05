@@ -271,6 +271,33 @@ footer {
   border: 1px solid blue;
 }
 
+/* FOOTER */
+.footer-text {
+  color: #93959c;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.social-icon:hover {
+  color: #0077ff !important;
+}
+
+.social-icon {
+  height: 14px;
+  filter: brightness(0) contrast(0);
+}
+
+.team-members-social {
+  background-color: #ffffff;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+}
+/* FOOTER */
+
 @media (min-width: 768px) {
   .img1 {
     grid-area: img1;
